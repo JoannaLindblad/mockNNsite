@@ -6,20 +6,69 @@
 <!--take out when want to include external css page
 <link rel="stylesheet" href="mockNNsite.css">
 -->
+
+<style>
+
+/* Add a green background color to the top navigation */
+.topnav {
+  background-color: rgb(29, 214, 29);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.bank {
+        background-color: dodgerblue;
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+}
+
+</style>
+
 </head>
 
 <body>
 
 <div>CALL US: 888.486.4722 |</div>
 <a href="https://nelnetinc.com/businesses/" target="_blank">Nelnet Businesses</a>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQzjCPT6Aeb_FZjDt5Ww2LeJSri6xE9dQ3gw&usqp=CAU" alt="Nelnet Logo">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQzjCPT6Aeb_FZjDt5Ww2LeJSri6xE9dQ3gw&usqp=CAU" alt="Nelnet Logo"
+style="width: 100px; height:30px;">
+
 <div>Log In</div>
-
-<p style="background-color: rgb(63, 224, 63);">About Payments... Repayment Options... About Student Loans... Help</p>
-
-<p style="background-color:darkblue; text-align: right;"><a href="https://www.nelnetbank.com/" target="_blank">Are you looking for Nelnet Bank?</a></p>
+<div class="topnav">
+        <a class="active" href="#aboutpayments">About Payments</a>
+        <a href="#repaymentoptions">Repayment Options</a>
+        <a href="#aboutstudentloans">About Student Loans</a>
+        <a href="#help">Help</a>
+</div>
+<div class="bank">
+<a href="https://www.nelnetbank.com/" target="_blank">Are you looking for Nelnet Bank?</a>
+</div>
 <!--add white color to href below-->
-<p style="font-size: 17px; background-color:white; border:5px solid dodgerblue; margin: 50px;">
+<p style="font-size:17px; color:dodgerblue; background-color:rgb(122, 76, 76); border:25px solid dodgerblue; margin:100px;">
         The 0% interest rate and suspension of payments on federal student loans owned by the U.S. Department
         of Education are in effect through Dec.31, 2020. Visit 
         <a href="https://studentaid.gov/announcements-events/coronavirus/" target="_blank">StudentAid.gov/coronavirus</a>for more information.
@@ -40,7 +89,8 @@
         <li>Help you find lower monthly payment options</li>
         <li>Guide you through the different stages of your student loan</li>
 </ul>
-<!--need to add upload button-->
+<!--need to add upload button
+<button onclick="document.location='//www.nelnet.com/your-student-loan-servicer'">Learn More About Nelnet</button>-->
 <p style="background-color:darkblue; font-size: 150%; text-align: left;">Upload Documents Without Logging in to Your Account. <br/>Do you need to upload a document? There is no need to log in. Fill out our form with the requested information and attach your document.</p>
 
 </body>
