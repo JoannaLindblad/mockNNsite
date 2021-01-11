@@ -37,12 +37,32 @@
   color: white;
 }
 
+/* Add a darkblue background color to the top navigation */
 .bank {
-        background-color: dodgerblue;
-        color: white;
-        border: 2px solid black;
-        margin: 20px;
-        padding: 20px;
+  background-color:darkblue;
+  overflow: hidden;
+}
+
+/* Style the links inside the bank bar */
+.bank a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover for bank */
+.bank a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link for bank */
+.bank a.active {
+  background-color:darkblue;
+  color: white;
 }
 
 </style>
@@ -65,7 +85,7 @@ style="width: 100px; height:30px;">
         <a href="#help">Help</a>
 </div>
 <div class="bank">
-<a href="https://www.nelnetbank.com/" target="_blank">Are you looking for Nelnet Bank?</a>
+<a href="https://www.nelnetbank.com/" target="_blank"><u>Are you looking for Nelnet Bank?</u></a>
 </div>
 <!--add white color to href below-->
 <p style="font-size:17px; color:dodgerblue; background-color:rgb(122, 76, 76); border:25px solid dodgerblue; margin:100px;">
